@@ -1,0 +1,7 @@
+parameters:
+#    mika56_twitch_sdk.example.class: Mika56\TwitchSDKBundle\Example
+
+services:
+    twitch:
+        class: ritero\SDK\TwitchTV\TwitchSDK
+        arguments: [%twitch_settings%]

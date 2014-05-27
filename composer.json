@@ -1,0 +1,19 @@
+{
+    "name": "mika56/twitch-sdk-bundle",
+    "description": "Simple wrapper around ritero/twitch-sdk",
+    "license": "MIT",
+    "keywords": ["twitch", "twitch api", "twitch bundle"],
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/Mika56/TwitchSDKBundle",
+    "authors": [
+        {
+            "name": "Mikael Peigney",
+            "email": "mika56@gamersflag.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "ritero/twitch-sdk": "dev-master"
+    },
+    "minimum-stability": "dev"
+}
