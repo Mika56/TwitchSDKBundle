@@ -15,5 +15,8 @@
         "php": ">=5.3",
         "ritero/twitch-sdk": "dev-master"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {"Mika56\\": "src/"}
+    }
 }
